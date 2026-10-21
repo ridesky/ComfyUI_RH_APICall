@@ -116,7 +116,7 @@ class ImageUploaderNode:
         base_url = apiConfig.get('base_url', 'https://www.runninghub.cn')
         upload_url = f"{base_url}/task/openapi/upload"
 
-        print(f"Uploading image to {upload_url} with apiKey: {data['apiKey']}")
+        print(f"Uploading image to {upload_url}.")
 
         # Send POST request with retry mechanism
         max_retries = 5
